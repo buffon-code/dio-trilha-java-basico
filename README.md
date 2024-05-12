@@ -1,7 +1,9 @@
 
-<h1>Sistema bancário em Java, Projeto proposto pelo bootcamp da DIO!</h1>
+<h1 align="center"> 🚀 🚀 🚀 Sistema bancário em Java, Projeto proposto pelo bootcamp da DIO!</h1>
 
-<h3>Este é um projeto simples em Java que simula um sistema bancário básico. O programa permite que os usuários insiram os dados da agência, 
+<br>
+
+<h3 align="center">Este é um projeto simples em Java que simula um sistema bancário básico. O programa permite que os usuários insiram os dados da agência, 
 número da conta, nome completo e saldo, e em seguida exibe uma mensagem de boas-vindas com os dados fornecidos.</h3>
 
 <hr>
@@ -21,5 +23,10 @@ número da conta, nome completo e saldo, e em seguida exibe uma mensagem de boas
               <li>Compile o código-fonte usando um compilador Java.</li>
               <li>Execute o arquivo compilado para iniciar o programa.</li>
               <li>Siga as instruções exibidas no terminal para inserir os dados solicitados.</li>
+
+ <H3>Créditos</H3>       
+                 <p>Agradeço a Dio que esta proporcionando a mim e a várias outras pessoas participar desse incrível bootcamp 🚀 </p>
+
+## Autor: Franciane Buffon   🚀 🙂  🚀
 
       
