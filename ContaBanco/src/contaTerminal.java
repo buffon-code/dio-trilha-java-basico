@@ -5,7 +5,9 @@ import java.util.Scanner;
 
 public class contaTerminal{
 
+    //Método que limpa a tela 
     public static void limparTela (){
+
         System.out.print("\033[H\033[2J");
         System.out.flush();
     }
@@ -33,6 +35,9 @@ public class contaTerminal{
 
         System.out.println("Digite seu nome completo: ");
         String nome= inputScanner.nextLine(); 
+
+        //Exige que o cliente digite apenas espaços e letras não aceitando números. 
+
         while (!nome.matches("[a-zA-Z\\s]+")) {
             System.out.println("Por favor, digite apenas letras. Tente novamente: ");
             nome = inputScanner.nextLine();
@@ -42,6 +47,7 @@ public class contaTerminal{
         System.out.println("Digite o valor: ");
         String valorString= inputScanner.nextLine();
 
+        //Aceita que o usuário digite . ou ,
         valorString = valorString.replace(',', '.');
 
         // Converte a string para double
