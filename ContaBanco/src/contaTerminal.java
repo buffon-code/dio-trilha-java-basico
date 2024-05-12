@@ -19,7 +19,7 @@ public class contaTerminal{
         Scanner inputScanner = new Scanner (System.in);
 
         System.out.println("Por favor digite o número da Agência: ");
-        int numeroAgencia= inputScanner.nextInt();
+        String numeroAgencia= inputScanner.nextLine();
 
      
         limparTela();
@@ -49,7 +49,7 @@ public class contaTerminal{
 
         limparTela();
 
-        System.out.printf("Olá [%s], obrigado por criar uma conta em nosso banco, sua agência é: [%d] Conta: [%d] e seu saldo de: [%.2f] já está disponível para saque :)%n", nome, numeroAgencia, numeroConta, valor);
+        System.out.printf("Olá [%s], obrigado por criar uma conta em nosso banco, sua agência é: [%s] Conta: [%d] e seu saldo de: [%.2f] já está disponível para saque :)%n", nome, numeroAgencia, numeroConta, valor);
         System.out.println();
         System.out.println();
         System.out.println("               Agradecemos a preferência!               ");
